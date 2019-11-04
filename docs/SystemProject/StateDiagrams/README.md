@@ -30,7 +30,7 @@
 # 4 Удаление гайда
 ![Удаление гайда](https://github.com/SBavia/Smoker-s-paradise/blob/master/docs/SystemProject/StateDiagrams/Delete.png)
 
-<a name="add"/>гайда
+<a name="add"/>
 
 # 5 Добавление гайда
 ![Добавление гайда](https://github.com/SBavia/Smoker-s-paradise/blob/master/docs/SystemProject/StateDiagrams/Add.png)

@@ -1,0 +1,72 @@
+header, main {
+
+    display: block;
+
+}
+
+body {
+
+    overflow-y: auto;
+    background-color: aliceblue;
+
+}
+
+#wrap {
+
+    width: 100%;
+    height: 100px;
+    background: darkturquoise url("../images/marlboro.png") no-repeat 3% 50%;
+    position: fixed;
+
+}
+
+.title {
+
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 15px;
+    margin-left: 130px;
+
+}
+
+.sentence {
+
+    color: white;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+
+}
+
+
+.input-form {
+
+    top: 30px;
+    right: 325px;
+    width: 700px;
+    position: absolute;
+
+}
+
+#basic_content {
+
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+}
+
+#button_all {
+
+    position: absolute;
+    top: 110px;
+    left: 500px;
+
+}
+
+#button_back {
+
+    position: absolute;
+    top: 30px;
+    right: 50px;
+
+}

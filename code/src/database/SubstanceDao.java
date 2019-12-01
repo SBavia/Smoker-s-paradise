@@ -53,9 +53,6 @@ public class SubstanceDao extends AbstractSubstanceDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public List<Substance> select() {
 
@@ -65,9 +62,6 @@ public class SubstanceDao extends AbstractSubstanceDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void insert(final Substance substance)
             throws ApplicationException {
@@ -108,17 +102,11 @@ public class SubstanceDao extends AbstractSubstanceDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void update(final Substance substance) {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean isExistSubstance(final String name)
             throws ApplicationException {

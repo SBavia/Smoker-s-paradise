@@ -34,9 +34,6 @@ public class User extends AbstractEntity {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public String toString() {
 
@@ -44,10 +41,6 @@ public class User extends AbstractEntity {
                 + "@login:" + this.login + "@password:" + this.password;
 
     }
-
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public int hashCode() {
 
@@ -57,9 +50,6 @@ public class User extends AbstractEntity {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean equals(final Object object) {
 

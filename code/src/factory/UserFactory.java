@@ -27,9 +27,6 @@ public class UserFactory implements EntityFactory<User> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public User createEntity() {
 
@@ -42,9 +39,6 @@ public class UserFactory implements EntityFactory<User> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public User createEntity(final HttpServletRequest request) {
 
@@ -69,9 +63,6 @@ public class UserFactory implements EntityFactory<User> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public User createEntity(final ResultSet resultSet) {
 

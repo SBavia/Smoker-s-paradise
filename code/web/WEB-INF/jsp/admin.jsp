@@ -7,9 +7,9 @@
     <c:url var="url_1" value="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="${url_1}"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <c:url var="url_2" value="styles/admin_style.css"/>
+    <c:url var="url_2" value="../../styles/admin_style.css"/>
     <link rel="stylesheet" href="${url_2}">
-    <c:url var="image_url" value="images/marlboro.png"/>
+    <c:url var="image_url" value="../../images/marlboro.png"/>
     <link rel="icon" href="${image_url}" type="images/x-icon">
     <title><c:out value="Admin"/></title>
 </head>

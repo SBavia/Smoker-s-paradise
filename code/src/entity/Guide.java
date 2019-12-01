@@ -40,9 +40,6 @@ public class Guide extends AbstractEntity {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public String toString() {
 
@@ -53,9 +50,6 @@ public class Guide extends AbstractEntity {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public int hashCode() {
 
@@ -66,9 +60,6 @@ public class Guide extends AbstractEntity {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean equals(final Object object) {
 

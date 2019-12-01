@@ -29,9 +29,6 @@ public class GuideFactory implements EntityFactory<Guide> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public Guide createEntity() {
 
         final Guide guide = new Guide();
@@ -43,9 +40,6 @@ public class GuideFactory implements EntityFactory<Guide> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public Guide createEntity(final HttpServletRequest request) {
 
@@ -65,9 +59,6 @@ public class GuideFactory implements EntityFactory<Guide> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public Guide createEntity(final ResultSet resultSet)
             throws SQLException {

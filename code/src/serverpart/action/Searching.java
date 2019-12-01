@@ -34,9 +34,6 @@ public class Searching implements Action {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void execute(final HttpServletRequest request,
                         final HttpServletResponse response)
@@ -64,7 +61,7 @@ public class Searching implements Action {
         }
 
         request.getSession().setAttribute("guides", guides);
-        request.getRequestDispatcher("web/main.jsp")
+        request.getRequestDispatcher("C:\\Users\\Maurice\\Desktop\\трит\\Smoker-s-paradise\\code\\web\\WEB-INF\\jsp\\admin.jsp")
                 .forward(request, response);
 
     }

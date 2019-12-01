@@ -31,9 +31,6 @@ public class ShowingGuides implements Action {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void execute(final HttpServletRequest request,
                         final HttpServletResponse response)
@@ -46,7 +43,7 @@ public class ShowingGuides implements Action {
             request.getSession().setAttribute("guides",
                     ((GuideDao) dao).select());
             request.getRequestDispatcher(
-                    "web/guides.jsp")
+                    "C:\\Users\\Maurice\\Desktop\\трит\\Smoker-s-paradise\\code\\web\\WEB-INF\\jsp\\guides.jsp")
                     .forward(request, response);
 
         } catch (ApplicationException e) {

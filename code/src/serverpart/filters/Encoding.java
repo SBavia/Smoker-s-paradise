@@ -27,9 +27,6 @@ public class Encoding implements Filter {
      */
     private String code;
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void init(final FilterConfig config) {
 
@@ -38,9 +35,6 @@ public class Encoding implements Filter {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void doFilter(final ServletRequest request,
                          final ServletResponse response,
@@ -61,9 +55,6 @@ public class Encoding implements Filter {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void destroy() {
 

@@ -15,9 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- *
- */
 public class Authorization implements Action {
 
     /**
@@ -29,7 +26,7 @@ public class Authorization implements Action {
      * Value of the admin url.
      */
     private static final String URL_ADMIN
-            = "web/admin.jsp";
+            = "C:\\Users\\Maurice\\Desktop\\трит\\Smoker-s-paradise\\code\\web\\WEB-INF\\jsp\\admin.jsp";
 
     /**
      * Value of the index url.
@@ -46,9 +43,6 @@ public class Authorization implements Action {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void execute(final HttpServletRequest request,
                         final HttpServletResponse response)

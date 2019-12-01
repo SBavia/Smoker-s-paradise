@@ -74,9 +74,6 @@ public class GuideDao extends AbstractGuideDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public List<Guide> select() throws ApplicationException {
 
@@ -113,9 +110,6 @@ public class GuideDao extends AbstractGuideDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public List<Guide> select(final String name)
             throws ApplicationException {
@@ -156,9 +150,6 @@ public class GuideDao extends AbstractGuideDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void insert(final Guide guide) throws ApplicationException {
 
@@ -187,9 +178,6 @@ public class GuideDao extends AbstractGuideDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void update(final Guide guide) throws ApplicationException {
 
@@ -217,9 +205,6 @@ public class GuideDao extends AbstractGuideDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean delete(final String name) throws ApplicationException {
 

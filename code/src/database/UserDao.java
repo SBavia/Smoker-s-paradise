@@ -47,9 +47,6 @@ public class UserDao extends AbstractUserDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public List<User> select() {
 
@@ -59,25 +56,16 @@ public class UserDao extends AbstractUserDao {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void insert(final User user) {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void update(final User user) {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean isExist(final String login, final String password)
             throws ApplicationException {

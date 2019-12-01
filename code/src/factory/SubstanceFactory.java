@@ -28,9 +28,6 @@ public class SubstanceFactory implements EntityFactory<Substance> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public Substance createEntity() {
 
         final Substance substance = new Substance();
@@ -43,9 +40,6 @@ public class SubstanceFactory implements EntityFactory<Substance> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public Substance createEntity(final HttpServletRequest request)
             throws ApplicationException {
 
@@ -56,9 +50,6 @@ public class SubstanceFactory implements EntityFactory<Substance> {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public Substance createEntity(final ResultSet resultSet) {
 
         final Substance substance = new Substance();

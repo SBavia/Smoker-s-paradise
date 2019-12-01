@@ -113,7 +113,7 @@ public class Controller extends HttpServlet {
                     action.execute(request, response);
                     break;
                 case "back_admin":
-                    request.getRequestDispatcher("web/admin.jsp")
+                    request.getRequestDispatcher("web/WEB-INF/jsp/admin.jsp")
                             .forward(request, response);
                     break;
                 case "back_user":

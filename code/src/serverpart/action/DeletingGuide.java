@@ -34,9 +34,6 @@ public class DeletingGuide implements Action {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public void execute(final HttpServletRequest request,
                         final HttpServletResponse response)
             throws IOException, ServletException {
@@ -60,7 +57,7 @@ public class DeletingGuide implements Action {
 
         request.getSession().removeAttribute("guides");
         request.getSession().setAttribute("guides", guides);
-        request.getRequestDispatcher("web/admin.jsp")
+        request.getRequestDispatcher("C:\\Users\\Maurice\\Desktop\\трит\\Smoker-s-paradise\\code\\web\\WEB-INF\\jsp\\admin.jsp")
                 .forward(request, response);
 
     }

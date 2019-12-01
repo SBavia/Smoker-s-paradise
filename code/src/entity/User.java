@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 /**
  * This class stores info about user.
  */
-public final class User extends AbstractEntity {
+public class User extends AbstractEntity {
 
     /**
      * Logger for debug.
@@ -34,6 +34,9 @@ public final class User extends AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String toString() {
 
@@ -42,6 +45,9 @@ public final class User extends AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int hashCode() {
 
@@ -51,6 +57,9 @@ public final class User extends AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean equals(final Object object) {
 
@@ -147,7 +156,7 @@ public final class User extends AbstractEntity {
         final String debugString
                 = " Attribute is null in method setPassword(String).";
 
-        if (password != null) {
+        if (newPassword != null) {
             this.password = newPassword;
         } else {
             logger.log(Level.DEBUG, debugString);

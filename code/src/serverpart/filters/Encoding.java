@@ -15,7 +15,7 @@ import java.io.IOException;
 /**
  * This filter class to set page encoding.
  */
-public final class Encoding implements Filter {
+public class Encoding implements Filter {
 
     /**
      * Logger for debug.
@@ -27,6 +27,9 @@ public final class Encoding implements Filter {
      */
     private String code;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void init(final FilterConfig config) {
 
@@ -35,6 +38,9 @@ public final class Encoding implements Filter {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void doFilter(final ServletRequest request,
                          final ServletResponse response,
@@ -55,6 +61,9 @@ public final class Encoding implements Filter {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void destroy() {
 

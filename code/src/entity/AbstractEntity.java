@@ -28,6 +28,9 @@ public abstract class AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String toString() {
 
@@ -35,6 +38,9 @@ public abstract class AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int hashCode() {
 
@@ -42,6 +48,9 @@ public abstract class AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean equals(final Object object) {
 

@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 /**
  * This class stores info about medicine substance.
  */
-public final class Substance extends AbstractEntity {
+public class Substance extends AbstractEntity {
 
     /**
      * Logger for debug.
@@ -29,6 +29,9 @@ public final class Substance extends AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String toString() {
 
@@ -37,6 +40,9 @@ public final class Substance extends AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int hashCode() {
 
@@ -45,6 +51,9 @@ public final class Substance extends AbstractEntity {
 
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean equals(final Object object) {
 

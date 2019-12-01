@@ -13,7 +13,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Controller</servlet-name>
-        <url-pattern>/pharmacy</url-pattern>
+        <url-pattern>/Guides</url-pattern>
     </servlet-mapping>
     <filter>
         <filter-name>Encoding</filter-name>

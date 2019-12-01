@@ -18,7 +18,7 @@
     <div id="title">
         <h3><c:out value="Sign in"/></h3>
     </div>
-    <form action="pharmacy" method="post">
+    <form action="Guides" method="post">
         <input type="hidden" name="action" value="signin">
         <p><label for="login"><c:out value="Login: "/></label><input type="text" class="form-control" id="login"
                                                                      name="login" placeholder="Enter login" required/>

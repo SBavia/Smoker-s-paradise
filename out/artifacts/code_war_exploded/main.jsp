@@ -49,8 +49,8 @@
         </form>
     </div>
     <div id="basic_content">
-        <c:set var="dao" value="${GuideDao()}"/>
-        <c:set var="start_guides" value="${dao.select()}"/>
+        <c:set var="dao" value="${GuideDao}"/>
+        <c:set var="start_guides" value="${dao.select}"/>
         <table class="table_blur">
             <thead>
             <tr>

@@ -1,0 +1,44 @@
+main {
+
+    display: block;
+
+}
+
+body {
+
+    overflow-y: auto;
+    background-color: aliceblue;
+
+}
+
+#button_pay {
+
+    position: absolute;
+    top: 110px;
+    left: 420px;
+
+}
+
+#button_back {
+
+    position: absolute;
+    top: 110px;
+    left: 490px;
+
+}
+
+#label_cash {
+
+    position: absolute;
+    top: 115px;
+    left: 570px;
+
+}
+
+#basic_content {
+
+    position: absolute;
+    top: 155px;
+    left: 300px;
+
+}
